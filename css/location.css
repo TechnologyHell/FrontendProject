@@ -1,0 +1,88 @@
+.location {
+  width: 100%;
+  height: 25%;
+  background-color: #e0e0e080;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transform: translateX(25vw);
+  transition: transform 1s ease-out;
+  box-sizing: border-box;
+  display: flex;
+  border-radius: 250px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  align-content: center;
+  margin-left: 130px; /* Add margin to create spacing */
+}
+
+
+
+h1 {
+	position: relative;
+	display: inline-block;
+	padding: 10px 10px;
+	width: 100%;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	background-color: black;
+	color: white;
+	margin-top: 30px; /* Adjust the margin as needed */
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+  }
+  
+h2,p{
+	padding-left: 100px;
+}
+
+
+.location:hover {
+	transform: scale(1.1);
+	font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.photo {
+	height: 200px;
+	
+	overflow: hidden;
+	object-fit: cover;
+	/* margin: 50px; */
+	transition: box-shadow 0.3s ease;
+	border-radius: 1000px;
+}
+
+.photo:hover {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.671);
+  }
+
+.photo img {
+	height: 100%;
+	object-fit: cover;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+	padding-left: 350px;
+	
+}
+body{
+	position: absolute;
+	top:0px;
+	width: 100vw;
+	height: 200vh;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	/* overflow: hidden; */
+	/* overflow-x: scroll; */
+	background-image: url("/bgim/bg4.jpg");
+	background-size: cover;
+	background-position: absolute;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow-y: hidden;
+}

@@ -1,0 +1,97 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    body {
+        position: absolute;
+        top: 0px;
+       height: 100vh;
+       width: 100vw;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body::after{
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: url('https://im.whatshot.in/img/2020/Apr/41215842-2062970037054645-8180165235601047552-o-baan-tao-cropped-1586780385.jpg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        opacity: .6;
+        z-index: -1;
+        filter: blur(5px);
+    }
+
+    
+
+    h1 {
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        background-color: rgb(255, 147, 47);
+        color: rgb(0, 0, 0);
+        z-index: 1;
+        font-size: 5rem;
+        width: 100vw;
+        height: 10vh;
+        line-height: 10vh;
+        font-size: 50px;
+        font-family: 'Imprint MT Shadow Regular';
+        text-align: center;
+        font-weight: lighter;
+        text-shadow: 2px 2px 4px rgb(255, 217, 0);
+    }
+
+    .container{
+        width: 320px;
+        padding: 100px;
+        border: 50px solid gray;
+        margin: 0;
+    }
+
+    label,
+    select {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        font-family: 'Candara';
+        margin: 10px auto;
+        z-index: 1;
+        background-color: transparent;
+
+    }
+    
+    select,
+    option{
+        font-family: 'Corbel';
+        font-size: 25px;
+        background-color: rgba(255, 208, 0, 0.048);
+        border-radius: 10px;
+    }
+
+    div{
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input[type = "button"]{
+        height: 50px;width: 150px;
+        border-radius: 20px;
+        background-color: rgba(0, 0, 0, 0.445);
+        color: wheat;
+        cursor: pointer;
+    }
+
+    input[type = "button"]:hover{
+        color: wheat;
+        background-color: rgba(0, 0, 0, 0.623);
+    }

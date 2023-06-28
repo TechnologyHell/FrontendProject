@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Book A Hotel</title>
+	<link rel="stylesheet" href="/css/booking_form.css">
+	<link rel="icon" href="/favicons/booking.png">
+	
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 20px;
+			display: flex;
+			flex-direction: column;
+			padding: 50px;
+			height: auto;
+			width: 40vw;
+			font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+			border: 0.5px solid rgba(0, 0, 0, 0.253);
+			justify-content: center;
+			background-color: rgba(238, 255, 0, 0.281);
+			align-items: center;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav>
+        <ul>
+            <a class="link" href="Landing_page.html">Home</a>
+            <a class="link" href="Main_page.html">Packages</a>
+            <a class="link" href="Hotels.html">Hotels</a>
+            <a class="link" href="Offers.html">Offers</a>
+            <a class="link" href="flight.html">Flights</a>
+            <a class="link booking-button" href="Booking form.html">Booking</a>
+            <a class="link" href="Login_page.html">LogIn</a>
+    
+        </ul>
+    </nav>>
+
+	<h1 id="title">Booking Form</h1>
+	<form action="container" id="container" class="container">
+		<input type="text" placeholder="Your Name" name="name" required>
+		<input type="text" placeholder="Contact Number" name="number" id="number" required>
+		<input type="text" placeholder="E-Mail ID" name="number" id="number" required>
+		<input type="text" placeholder="Permanent Address" name="address" required>
+		<input type="text" placeholder="Check-In Date" name="checkin" required>
+		<input type="text" placeholder="Check-Out Date" name="checkout" required>
+		<input type="text" placeholder="Number of Travellers" name="quantity" required>
+		<input type="text" placeholder="Destination" name="dest" required><br><br>
+		<p>By pressing "BOOK" you agree to our <a href="#">Terms & Conditions</a>.</p>
+		<button type="submit" class="registerbutton">BOOK!</button>
+	</form>
+</body>
+
+</html>
